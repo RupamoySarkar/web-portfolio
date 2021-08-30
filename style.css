@@ -2,7 +2,7 @@ h1{
     font-size: 50px;
     font-family: 'Poppins', sans-serif;
 }
-.name-higlight{
+.orange-higlight{
     color: orange;
 }
 .link-profile
@@ -33,3 +33,42 @@ h1{
 body{
     margin: 0px;
 }
+
+.big-dream
+{
+    height: 700PX;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+p{
+    color: dimgray;
+}
+.exper-part{
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+    
+
+} 
+.experience
+{
+    height: 600px;
+    background-image: url("images/exp-bg.png");
+
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#exp-p1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg ,lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#exp-p2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+
